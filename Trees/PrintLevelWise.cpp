@@ -3,7 +3,7 @@ Given a generic tree, print the input tree in level wise order. ####For printing
 
 N:x1,x2,x3,...,xn
 
-wherer, N is data of any node present in the binary tree. x1, x2, x3, ...., xn are the children of node N
+where N is data of any node present in the binary tree. x1, x2, x3, ...., xn are the children of node N
 There is no space in between.
 You need to print all nodes in the level order form in different lines.
 Input format :
