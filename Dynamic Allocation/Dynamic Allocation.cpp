@@ -16,5 +16,6 @@ int main() {
 		delete [] p[i];
 	}
 	delete [] p;
+	return 0;
 }
 
