@@ -1,5 +1,5 @@
 /*
-Givan n number of words and an incomplete word w. You need to auto-complete that word w.
+Given n number of words and an incomplete word w. You need to auto-complete that word w.
 That means, find and print all the possible words which can be formed using the incomplete word w.
 Input Format :
 
