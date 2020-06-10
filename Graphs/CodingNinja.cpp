@@ -67,7 +67,7 @@ bool dfs(char Graph[][MAXN],char c[],int i,int j,int N,int M,bool ** visited){
     
     if(j-1>=0 && Graph[i][j-1]==c[0] && !visited[i][j-1])
         ans=ans || dfs(Graph,c+1,i,j-1,N,M,visited);
-    
+     visited[i][j]=false;
     return ans;
     
     
