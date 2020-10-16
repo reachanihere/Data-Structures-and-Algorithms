@@ -62,8 +62,12 @@ Node* mergeTwoLLs(Node *head1, Node *head2) {
     /* Don't write main().
      * Don't read input, it is passed as function argument.
      * Return output and don't print it.
-     * Taking input is handled automatically.
+     * Taking input is handled automatically
      */
+    if(head1 == NULL && head2 == NULL) return NULL;
+    if(head1 == NULL) return head2;
+    if(head2 == NULL) return head1;
+ 
     Node *fhead;
     Node *ftail;
     
