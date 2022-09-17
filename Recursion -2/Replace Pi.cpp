@@ -32,7 +32,7 @@ using namespace std;
 
 void replacePi(char input[]) {
 	// Write your code here
-    if(input[0]=='\0')
+    if(input[0]=='\0'||input[1]=='\0')
         return;
     if(input[0]=='p' && input[1]=='i'){
         input[0]='3';
